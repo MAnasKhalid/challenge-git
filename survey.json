@@ -1,0 +1,963 @@
+[
+    {
+        "id": 4,
+        "label": "GENERAL CONDITIONS TOTAL",
+        "code": "1.00",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Does the Customer want to Change the Floorplan?",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "label": "No"
+                    }
+                ],
+                "order": 1
+            },
+            {
+                "id": 2,
+                "question": "Do we need to Remove Walls?",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": 1,
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "label": "No"
+                    }
+                ],
+                "order": 2
+            },
+            {
+                "id": 3,
+                "question": "Is Wall #1 a Loading Bearing Wall?",
+                "has_input": true,
+                "input_option": 1,
+                "input_title": "Linear Feet Wall1",
+                "related_question": 2,
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "label": "No"
+                    }
+                ],
+                "order": 3
+            },
+            {
+                "id": 4,
+                "question": "Is there a Second Wall to Remove?",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "label": "No"
+                    }
+                ],
+                "order": 4
+            },
+            {
+                "id": 5,
+                "question": "Is Wall #2 a Loading Bearing Wall?",
+                "has_input": true,
+                "input_option": 1,
+                "input_title": "Linear Feet of Wall2",
+                "related_question": 4,
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "label": "No"
+                    }
+                ],
+                "order": 5
+            },
+            {
+                "id": 6,
+                "question": "Is there a Third Wall to Remove?",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "label": "No"
+                    }
+                ],
+                "order": 6
+            },
+            {
+                "id": 7,
+                "question": "Is Wall#3 a Loading Bearing Wall?",
+                "has_input": true,
+                "input_option": 1,
+                "input_title": "Linear Feet Wall3",
+                "related_question": 6,
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "label": "No"
+                    }
+                ],
+                "order": 6
+            },
+            {
+                "id": 8,
+                "question": "Is there a Fourth Wall to Remove?",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "label": "No"
+                    }
+                ],
+                "order": 7
+            },
+            {
+                "id": 9,
+                "question": "Wall #4\r\nIs Wall#4 a Loading Bearing Wall?*",
+                "has_input": true,
+                "input_option": 1,
+                "input_title": "Linear Feet of Wall4",
+                "related_question": 8,
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "label": "No"
+                    }
+                ],
+                "order": 8
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "label": "ELECTRICAL",
+        "code": "4.00",
+        "questions": [
+            {
+                "id": 10,
+                "question": "Does the customer has a cooktop or a range?",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 3,
+                        "label": "Cooktop"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Range"
+                    }
+                ],
+                "order": 8
+            },
+            {
+                "id": 11,
+                "question": "What do we need to do with it?*",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 5,
+                        "label": "Remove & Replace"
+                    },
+                    {
+                        "id": 6,
+                        "label": "Add a new one"
+                    },
+                    {
+                        "id": 7,
+                        "label": "Remove"
+                    },
+                    {
+                        "id": 8,
+                        "label": "Nothing"
+                    },
+                    {
+                        "id": 13,
+                        "label": "Relocate"
+                    }
+                ],
+                "order": 9
+            },
+            {
+                "id": 12,
+                "question": "Is it Gas or Electric?*",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 9,
+                        "label": "Gas"
+                    },
+                    {
+                        "id": 36,
+                        "label": "Electric"
+                    }
+                ],
+                "order": 10
+            },
+            {
+                "id": 14,
+                "question": "Gas or Electric?*",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": 13,
+                "options": [
+                    {
+                        "id": 9,
+                        "label": "Gas"
+                    },
+                    {
+                        "id": 36,
+                        "label": "Electric"
+                    }
+                ],
+                "order": 12
+            },
+            {
+                "id": 15,
+                "question": "What do we need to do with the Oven(s)?*",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": 13,
+                "options": [
+                    {
+                        "id": 5,
+                        "label": "Remove & Replace"
+                    },
+                    {
+                        "id": 6,
+                        "label": "Add a new one"
+                    },
+                    {
+                        "id": 7,
+                        "label": "Remove"
+                    },
+                    {
+                        "id": 8,
+                        "label": "Nothing"
+                    },
+                    {
+                        "id": 13,
+                        "label": "Relocate"
+                    }
+                ],
+                "order": 13
+            },
+            {
+                "id": 16,
+                "question": "What do we need to do with the Microwave?*",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 5,
+                        "label": "Remove & Replace"
+                    },
+                    {
+                        "id": 6,
+                        "label": "Add a new one"
+                    },
+                    {
+                        "id": 7,
+                        "label": "Remove"
+                    },
+                    {
+                        "id": 8,
+                        "label": "Nothing"
+                    },
+                    {
+                        "id": 13,
+                        "label": "Relocate"
+                    }
+                ],
+                "order": 14
+            },
+            {
+                "id": 17,
+                "question": "What do we need to do with the Dishwasher?*",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 5,
+                        "label": "Remove & Replace"
+                    },
+                    {
+                        "id": 6,
+                        "label": "Add a new one"
+                    },
+                    {
+                        "id": 7,
+                        "label": "Remove"
+                    },
+                    {
+                        "id": 8,
+                        "label": "Nothing"
+                    },
+                    {
+                        "id": 13,
+                        "label": "Relocate"
+                    }
+                ],
+                "order": 15
+            },
+            {
+                "id": 18,
+                "question": "What do we need to do with the Garbage Disposal?*",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 5,
+                        "label": "Remove & Replace"
+                    },
+                    {
+                        "id": 6,
+                        "label": "Add a new one"
+                    },
+                    {
+                        "id": 7,
+                        "label": "Remove"
+                    },
+                    {
+                        "id": 8,
+                        "label": "Nothing"
+                    },
+                    {
+                        "id": 13,
+                        "label": "Relocate"
+                    }
+                ],
+                "order": 16
+            },
+            {
+                "id": 13,
+                "question": "What Type of Detached oven do they Have?*",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 10,
+                        "label": "Single Oven"
+                    },
+                    {
+                        "id": 11,
+                        "label": "Double Oven"
+                    },
+                    {
+                        "id": 12,
+                        "label": "None"
+                    }
+                ],
+                "order": 11
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "label": "PLUMBING",
+        "code": "5.00",
+        "questions": [
+            {
+                "id": 19,
+                "question": "What do we need to do with the Sink?*",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 5,
+                        "label": "Remove & Replace"
+                    },
+                    {
+                        "id": 6,
+                        "label": "Add a new one"
+                    },
+                    {
+                        "id": 7,
+                        "label": "Remove"
+                    },
+                    {
+                        "id": 8,
+                        "label": "Nothing"
+                    },
+                    {
+                        "id": 13,
+                        "label": "Relocate"
+                    }
+                ],
+                "order": 17
+            },
+            {
+                "id": 20,
+                "question": "What do we need to do with the Potfiller?*",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 5,
+                        "label": "Remove & Replace"
+                    },
+                    {
+                        "id": 6,
+                        "label": "Add a new one"
+                    },
+                    {
+                        "id": 7,
+                        "label": "Remove"
+                    },
+                    {
+                        "id": 8,
+                        "label": "Nothing"
+                    },
+                    {
+                        "id": 13,
+                        "label": "Relocate"
+                    }
+                ],
+                "order": 17
+            },
+            {
+                "id": 21,
+                "question": "Do we need to add any other plumbing Lines?*",
+                "has_input": true,
+                "input_option": 1,
+                "input_title": "How Many plumbing Lines?*",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "label": "No"
+                    }
+                ],
+                "order": 19
+            },
+            {
+                "id": 22,
+                "question": "Mechanical\r\nWhat do we need to do with the Hood?*",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 5,
+                        "label": "Remove & Replace"
+                    },
+                    {
+                        "id": 6,
+                        "label": "Add a new one"
+                    },
+                    {
+                        "id": 7,
+                        "label": "Remove"
+                    },
+                    {
+                        "id": 8,
+                        "label": "Nothing"
+                    },
+                    {
+                        "id": 13,
+                        "label": "Relocate"
+                    }
+                ],
+                "order": 20
+            },
+            {
+                "id": 23,
+                "question": "Do we need to add any other Vents?*",
+                "has_input": true,
+                "input_option": 1,
+                "input_title": "How Many Vents?*",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "label": "No"
+                    }
+                ],
+                "order": 21
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "label": "FRAMING",
+        "code": "6.00",
+        "questions": []
+    },
+    {
+        "id": 8,
+        "label": "PAINT",
+        "code": "10.00",
+        "questions": []
+    },
+    {
+        "id": 9,
+        "label": "FLOORING",
+        "code": "12.00",
+        "questions": [
+            {
+                "id": 36,
+                "question": "Does the Customer wants to change the floor?*",
+                "has_input": true,
+                "input_option": null,
+                "input_title": "What is the area?",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "label": "No"
+                    }
+                ],
+                "order": 32
+            },
+            {
+                "id": 37,
+                "question": "What Type of Flooring will be removed?*",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": 36,
+                "options": [
+                    {
+                        "id": 27,
+                        "label": "Othere"
+                    },
+                    {
+                        "id": 29,
+                        "label": "Vynil"
+                    },
+                    {
+                        "id": 30,
+                        "label": "Laminate"
+                    },
+                    {
+                        "id": 31,
+                        "label": "Engineered Hardwood"
+                    },
+                    {
+                        "id": 32,
+                        "label": "Solid Hardwood"
+                    },
+                    {
+                        "id": 33,
+                        "label": "Tile"
+                    },
+                    {
+                        "id": 34,
+                        "label": "Porcelain"
+                    }
+                ],
+                "order": 34
+            },
+            {
+                "id": 38,
+                "question": "What Type of Flooring will be installed?*",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": 36,
+                "options": [
+                    {
+                        "id": 32,
+                        "label": "Solid Hardwood"
+                    },
+                    {
+                        "id": 33,
+                        "label": "Tile"
+                    },
+                    {
+                        "id": 34,
+                        "label": "Porcelain"
+                    },
+                    {
+                        "id": 35,
+                        "label": "Other"
+                    },
+                    {
+                        "id": 29,
+                        "label": "Vynil"
+                    },
+                    {
+                        "id": 30,
+                        "label": "Laminate"
+                    },
+                    {
+                        "id": 31,
+                        "label": "Engineered Hardwood"
+                    }
+                ],
+                "order": 34
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "label": "STUCCO / SIDING",
+        "code": "13.OO",
+        "questions": []
+    },
+    {
+        "id": 11,
+        "label": "TILES",
+        "code": "15.00",
+        "questions": []
+    },
+    {
+        "id": 12,
+        "label": "CABINETS",
+        "code": "18.00",
+        "questions": [
+            {
+                "id": 24,
+                "question": "\"\"",
+                "has_input": true,
+                "input_option": null,
+                "input_title": "Wall Cabinets (LnFt)*",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 12,
+                        "label": "None"
+                    }
+                ],
+                "order": 22
+            },
+            {
+                "id": 25,
+                "question": "Wall Cabinets New or Refacing?*",
+                "has_input": true,
+                "input_option": null,
+                "input_title": "Base Cabinets (LnFt)*",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 14,
+                        "label": "Refacing"
+                    },
+                    {
+                        "id": 15,
+                        "label": "New"
+                    }
+                ],
+                "order": 23
+            },
+            {
+                "id": 26,
+                "question": "Base Cabinets New or Refacing?*",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 14,
+                        "label": "Refacing"
+                    },
+                    {
+                        "id": 15,
+                        "label": "New"
+                    }
+                ],
+                "order": 24
+            },
+            {
+                "id": 27,
+                "question": "Island Cabinets\r\nDoes the Customer has or want a kitchen Island?*",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 16,
+                        "label": "Yes, he has one"
+                    },
+                    {
+                        "id": 17,
+                        "label": "Yes, We Will Create a new one"
+                    },
+                    {
+                        "id": 12,
+                        "label": "None"
+                    }
+                ],
+                "order": 24
+            },
+            {
+                "id": 28,
+                "question": "Does the Island have a sink?*",
+                "has_input": true,
+                "input_option": null,
+                "input_title": "Island Cabinets (LnFt)*",
+                "related_question": 27,
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "label": "No"
+                    }
+                ],
+                "order": 25
+            },
+            {
+                "id": 29,
+                "question": "Island Cabinets New or Refacing?*",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": 27,
+                "options": [
+                    {
+                        "id": 14,
+                        "label": "Refacing"
+                    },
+                    {
+                        "id": 15,
+                        "label": "New"
+                    }
+                ],
+                "order": 26
+            },
+            {
+                "id": 30,
+                "question": "How many sides for The Island Cabinets?*",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": 27,
+                "options": [
+                    {
+                        "id": 28,
+                        "label": "1"
+                    }
+                ],
+                "order": 27
+            },
+            {
+                "id": 31,
+                "question": "Counter Tops\r\nWhat type of stone does the customer wants?*",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 18,
+                        "label": "White Grannite"
+                    },
+                    {
+                        "id": 19,
+                        "label": "Various Grannite"
+                    },
+                    {
+                        "id": 20,
+                        "label": "Black Grannite"
+                    },
+                    {
+                        "id": 21,
+                        "label": "Exotic Grannite"
+                    },
+                    {
+                        "id": 22,
+                        "label": "Quartzite /Taj Mahal"
+                    },
+                    {
+                        "id": 23,
+                        "label": "Exotic Quarzite"
+                    },
+                    {
+                        "id": 24,
+                        "label": "Calacatta Quartz"
+                    },
+                    {
+                        "id": 25,
+                        "label": "Pure White Quartz"
+                    },
+                    {
+                        "id": 26,
+                        "label": "Premium Selection"
+                    },
+                    {
+                        "id": 27,
+                        "label": "Othere"
+                    }
+                ],
+                "order": 27
+            },
+            {
+                "id": 32,
+                "question": "Does the Customer wants Waterfalls in the cabinets?*",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "label": "No"
+                    }
+                ],
+                "order": 28
+            },
+            {
+                "id": 33,
+                "question": "Does the Cabinets Waterfall will be in one or two sides?*",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": 32,
+                "options": [
+                    {
+                        "id": 28,
+                        "label": "1"
+                    },
+                    {
+                        "id": 37,
+                        "label": "2"
+                    }
+                ],
+                "order": 29
+            },
+            {
+                "id": 34,
+                "question": "Does the Customer wants Waterfalls in the Kitchen Island?*",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "label": "No"
+                    }
+                ],
+                "order": 30
+            },
+            {
+                "id": 35,
+                "question": "Does the Island Waterfall will be in one or two sides?*",
+                "has_input": false,
+                "input_option": null,
+                "input_title": "null",
+                "related_question": null,
+                "options": [
+                    {
+                        "id": 28,
+                        "label": "1"
+                    },
+                    {
+                        "id": 37,
+                        "label": "2"
+                    }
+                ],
+                "order": 31
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "label": "COUNTERTOPS",
+        "code": "19.00",
+        "questions": []
+    },
+    {
+        "id": 14,
+        "label": "DRYWALL",
+        "code": "20.00",
+        "questions": []
+    }
+]
